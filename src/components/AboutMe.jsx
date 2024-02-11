@@ -1,5 +1,6 @@
 import React from 'react';
-// import myPhoto from '../images/myPhoto.jpg';
+// import myPhoto from '../images/myPhoto.jpg'
+import profilePic from '../Images/profilePic.png'
 
 // also need to add the image to the public folder and then import it here
 function About() {
@@ -14,6 +15,9 @@ function About() {
                 working on for hours, and trust me, I have had more than my fair share of those moments. One of the things that I have come to know about coding is that it is 25% writing code and 75% debugging.
                 I genuinly do enjoy all of the aspects of coding, even the debugging. I am excited to see where this journey takes me and I am looking forward to the opportunities that will come my way.
             </p>
+            <div className='image-container'>
+                <img src={profilePic} alt="profilePic" className="profilePic" />
+            </div>
         </div>
     );
 } 

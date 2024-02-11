@@ -3,12 +3,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2; /* Light gray background */
+    background-color: #f0f2f5; /* Light grayish-blue background */
+    color: #333; /* Dark gray text */
 }
 
 .container {
     width: 80%;
     margin: auto;
+    background-color: #fff; /* Cream background for main content */
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 10px; /* Add border radius for rounded corners */
 }
 
 /* Header Styles */
@@ -57,13 +61,53 @@ nav ul li a:hover {
     padding: 20px;
 }
 
+.aboutme-container p {
+    font-size: 1.1rem; /* Larger font size for paragraphs */
+}
+
 /* Contact Me Styles */
 .contactme-container {
     padding: 20px;
 }
 
-.error {
+.contactme-container form {
+    max-width: 600px; /* Limit form width */
+    margin: auto; /* Center the form */
+}
+
+.contactme-container label {
+    font-size: 1.2rem; /* Larger font size for labels */
+}
+
+.contactme-container input,
+.contactme-container textarea {
+    width: 100%; /* Make input fields full width */
+    padding: 10px; /* Increase padding for better spacing */
+    margin-bottom: 15px; /* Add spacing between input fields */
+    font-size: 1.1rem; /* Larger font size for input fields */
+}
+
+.contactme-container textarea {
+    height: 150px; /* Set a larger height for the textarea */
+}
+
+.contactme-container .error {
     color: #ff0000; /* Red for error messages */
+    margin-top: 5px; /* Add spacing above error messages */
+}
+
+.contactme-container button[type='submit'] {
+    background-color: #0d47a1; /* Dark blue */
+    color: #fff; /* White text */
+    border: none;
+    padding: 12px 20px; /* Increase padding for button */
+    font-size: 1.2rem; /* Larger font size for button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contactme-container button[type='submit']:hover {
+    background-color: #002171; /* Darker blue on hover */
 }
 
 /* Footer Styles */
@@ -78,6 +122,15 @@ footer {
 
 .footer-container {
     text-align: center;
+}
+
+.footer-container a {
+    color: #fff; /* Set the color of anchor elements to white */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-container a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* Project Styles */
@@ -119,4 +172,14 @@ footer {
 /* Resume Styles */
 .resume-container {
     padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profilePic {
+    max-width: 100%;
+    height: auto;
 }

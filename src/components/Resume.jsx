@@ -1,4 +1,5 @@
 import React from 'react';
+import comingSoon from '../Images/comingSoon.png'
 
 // Needs to be updated with resume information and link and possibly a photo
 const Resume = () => {
@@ -8,6 +9,7 @@ const Resume = () => {
             <p>
                 A link to my resume is coming soon!
             </p>
+            <img src={comingSoon} alt="comingSoon" className="comingSoon" />
         </div>
     );
 }
