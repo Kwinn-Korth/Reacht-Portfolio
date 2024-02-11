@@ -1,0 +1,10 @@
+{
+    "name": "My React Portfolio",
+    "version": "1.0.0",
+    "description": "This is my personal portfolio website",
+    "type": "module",
+    "main": "vite.config.js",
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {}
+}
