@@ -6,16 +6,16 @@ function Navigation() {
     return (
         <nav>
             <ul>
-                <li classname={location.pathname === '/about' ? 'active' : ''}>
+                <li className={location.pathname === '/about' ? 'active' : ''}>
                     <Link to='/about'>About Me</Link>
                 </li>
-                <li classname={location.pathname === '/projects' ? 'active' : ''}>
+                <li className={location.pathname === '/projects' ? 'active' : ''}>
                     <Link to='/projects'>Projects</Link>
                 </li>
-                <li classname={location.pathname === '/contact' ? 'active' : ''}>
+                <li className={location.pathname === '/contact' ? 'active' : ''}>
                     <Link to='/contact'>Contact Me</Link>
                 </li>
-                <li classname={location.pathname === '/resume' ? 'active' : ''}>
+                <li className={location.pathname === '/resume' ? 'active' : ''}>
                     <Link to='/resume'>Resume</Link>
                 </li>
             </ul>

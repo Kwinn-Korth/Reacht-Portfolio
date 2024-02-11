@@ -2,10 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import About from './components/About';
+import About from './components/AboutMe';
 import Project from './components/Project';
-import ContactMe from './components/Contact';
+import ContactMe from './components/ContactMe';
 import Resume from './components/Resume';
+import './App.css';
 
 function App() {
     return (
