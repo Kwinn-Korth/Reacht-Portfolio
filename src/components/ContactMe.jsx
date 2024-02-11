@@ -50,7 +50,7 @@ function ContactMe() {
 
     return (
         <div className='contactme-container'>
-            <h1>Contact Me!</h1>
+            <h2>Contact Me!</h2>
             <form onSubmit={handleSubmit}>
                 <label htmlFor='name'>Name:</label>
                 <input type="text" id="name" name="name" required value={name} onChange={handleChange} />

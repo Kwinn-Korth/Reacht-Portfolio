@@ -5,7 +5,7 @@ import React from 'react';
 function About() {
     return (
         <div className = "aboutme-container">
-            <h1>About Me!</h1>
+            <h2>About Me!</h2>
             <p>
                 Hi, my name is Kwinn Korth and I am working to become a full stack web developer. I am currently enrolled at EdX coding bootcamp at the University of Utah learning full stack web development.
                 I am a hardworking, dedicated, and passionate individual who is always looking for ways to improve and learn new things. I am a quick learner and I am always willing to take on new challenges.
