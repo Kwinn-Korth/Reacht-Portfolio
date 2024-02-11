@@ -7,7 +7,7 @@ function Header() {
         <div className='header-container'>
             <header>
                 <h1>
-                    <Link to='/'>My Portfolio</Link>
+                    My Portfolio
                 </h1>
                 <nav>
                     <Navigation />
